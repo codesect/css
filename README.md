@@ -6,22 +6,20 @@
    - [Rule Declaration](#rule-declaration)
    - [Selectors](#selectors)
    - [Properties](#properties)
-1. [CSS](#css)
+2. [CSS](#css)
    - [Formatting](#formatting)
    - [Comments](#comments)
    - [OOCSS and BEM](#oocss-and-bem)
    - [ID Selectors](#id-selectors)
    - [JavaScript hooks](#javascript-hooks)
    - [Border](#border)
-1. [Sass](#sass)
+3. [Sass](#sass)
    - [Syntax](#syntax)
    - [Ordering](#ordering-of-property-declarations)
    - [Variables](#variables)
    - [Mixins](#mixins)
    - [Extend directive](#extend-directive)
    - [Nested selectors](#nested-selectors)
-1. [Translation](#translation)
-1. [License](#license)
 
 ## Terminology
 
@@ -91,15 +89,13 @@ Finally, properties are what give the selected elements of a rule declaration th
   border: 2px solid #FFF;
   border-radius: 50%;
   margin: 0px auto }
-.no,
-.nope,
-.notGood {
+.no, .nope, .notGood {
   // ...
 }
 #lol-no {
   // ...
 }
-input[type='email'] {
+input[type=email] {
   // ...
 }
 ```
@@ -120,7 +116,7 @@ input[type='email'] {
   // ...
 }
 
-input[type='email'] {
+input[type="email"] {
   // ...
 }
 ```
